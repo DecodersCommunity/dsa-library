@@ -1,3 +1,5 @@
+// Contributed by - Byomakesh Panda <byomakeshpanda210@gmail.com>
+
 #include <stdio.h>
 void printArray(int arr[],int n)
 {
