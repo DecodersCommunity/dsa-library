@@ -1,3 +1,5 @@
+// Contributed by - Ayush Tiwari <200104019@hbtu.ac.in>
+
 /*
 A red-black tree is a kind of self-balancing binary search tree where each node has an extra bit, and that bit is often interpreted as the color (red or black)
 
