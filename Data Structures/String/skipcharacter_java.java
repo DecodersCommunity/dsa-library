@@ -17,3 +17,4 @@ public class skip_character {
         }
         return "";
     }
+}
