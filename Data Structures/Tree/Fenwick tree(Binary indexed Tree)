@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 //**********************************************************************Fenwick Tree/Binary Indexed Tree********************************************************
 template<class T>
 class fenwick_tree
@@ -9,7 +11,7 @@ class fenwick_tree
  {
    tre.resize(n+1);
  }
- void add(T index,T value)
+ void add(T index,T value)  //one based indexed tree don't use zero as a index
  {
     for(;index<=tre.size()-1;index+=(index&(-index)))
     tre[index]+=value;
@@ -22,3 +24,18 @@ class fenwick_tree
      return ans;
  } 
 }; 
+
+int main()
+{
+     fenwick_tree<long long> tre(13);
+      for(int i=1;i<=13;i++){
+         tre.add(i,i);
+      }
+      
+      cout<<tre.sum_i(3)<<"\n";
+      cout<<tre.sum_i(9)<<"\n";
+      cout<<tre.sum_i(13)<<"\n";
+
+}
+
+//*********end*********//
