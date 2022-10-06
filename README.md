@@ -19,7 +19,8 @@ Apart from that, you can check the Algorithms section and add an algorithm of yo
 - To add implementation of a Data Structure/ Algorithm navigate to the respective folder
 - If the Data Structure or Algorithm you want to add doesn't have a folder, you are free to create a new folder
 - Inside the respective folder, click `Create new file`
-- File name convention: DataStructure_languageName.extension or AlgorithmName_languageName.extension
+- File name convention: DataStructure.extension or AlgorithmName.extension
+- See issue [#12](https://github.com/DecodersCommunity/dsa-library/issues/12) and [#13](https://github.com/DecodersCommunity/dsa-library/issues/12) for detailed instructions)
 - Add the complete implementation & `commit` the changes
 - `Sync` to Fetch Upstream & if there are no merge conflicts ,click on `Contribute`
 - Create `Pull Request` following proper convention
