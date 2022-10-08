@@ -1,32 +1,31 @@
-public class BinarySearch {
-
+java.util.Arrays;
+public class BubbleSort{
     public static void main(String[] args) {
-        int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
-        int target = 22;
-        int ans = binarySearch(arr, target);
-        System.out.println(ans);
+        int[] arr = {-10,-100,-23,0,1,2};
+        bubble(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    // return the index
-    // return -1 if it does not exist
-    static int binarySearch(int[] arr, int target) {
-        int start = 0;
-        int end = arr.length - 1;
-
-        while(start <= end) {
-            // find the middle element
-//            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
-            int mid = start + (end - start) / 2;
-
-            if (target < arr[mid]) {
-                end = mid - 1;
-            } else if (target > arr[mid]) {
-                start = mid + 1;
-            } else {
-                // ans found
-                return mid;
+    static void bubble(int[] arr) {
+        boolean swapped;
+        // run the steps n-1 times
+        for(int i = 0; i < arr.length; i++){
+            swapped = false;
+            //for each step, max will come at the last respective index
+            for(int j = 1; j < arr.length-i; j++){
+                // swap if the item is smaller then previous item
+                if(arr[j] < arr[j-1]){
+                    //swap
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
+                    swapped = true;
+                }
+            }
+            // if you did not swapped for a particular value of i, it means the array is sorted stop the program
+            if(!swapped) { //!false = true
+                break;
             }
         }
-        return -1;
     }
 }
