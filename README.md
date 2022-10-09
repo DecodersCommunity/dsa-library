@@ -9,9 +9,9 @@ Note: <i>This repository is created with the sole intent of guiding beginners to
 
 ## What to contribute?
 
-Dsa-library is a culmination of all major Data Structures and Algorithms.You can contribute to the data stucture of your choice, it's implementation in either of C,C++,JAVA,PYHTON,JAVASCRIPT.
+Dsa-library is a culmination of all major Data Structures and Algorithms.You can contribute to the data stucture of your choice, it's implementation in either of C, C++, Java, Python, JavaScript, or any language you're comfortable in.
 
-Apart from that, you can check the Algorithms section and add an algorithm of your choice implemented in any of the above mentioned 5 languages. 
+Apart from that, you can check the Algorithms section and add an algorithm of your choice. 
 
 
 ## How to Contribute?
@@ -22,13 +22,18 @@ Apart from that, you can check the Algorithms section and add an algorithm of yo
 - File name convention: DataStructure.extension or AlgorithmName.extension
 - See issue [#12](https://github.com/DecodersCommunity/dsa-library/issues/12) and [#13](https://github.com/DecodersCommunity/dsa-library/issues/12) for detailed instructions)
 - Add the complete implementation & `commit` the changes
-- `Sync` to Fetch Upstream & if there are no merge conflicts ,click on `Contribute`
+- `Sync` to Fetch Upstream & if there are no merge conflicts, click on `Contribute`
 - Create `Pull Request` following proper convention
 - That's it, Thank You for contributing to DSA Library
+
 
 We appreciate all kinds of contributions from core-code contributions to non-code contributions like writing a blog, suggesting a feature, etc.
 
 Please refer the [Contributing Guide](CONTRIBUTING.md) to know more about the guidelines.
+
+### Issues
+
+Also take a look at the issues [#12](https://github.com/DecodersCommunity/dsa-library/issues/12) and [#13](https://github.com/DecodersCommunity/dsa-library/issues/13), they contain the specific guidelines that you'd need to follow in order to get your PR merged into `main`.
 
 ## Contributors
 
