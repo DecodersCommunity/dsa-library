@@ -1,4 +1,4 @@
-
+// Contributed by - Ali Saquib Raza <razaalisaquib69@gmail.com>
 // C++ program to check for even or odd
 // using Bitwise AND operator
 #include <iostream>
