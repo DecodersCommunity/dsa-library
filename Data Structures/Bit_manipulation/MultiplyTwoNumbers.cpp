@@ -1,3 +1,4 @@
+// Contributed by - Ali Saquib Raza <razaalisaquib69@gmail.com>
 // CPP program to find multiplication
 // of two number without use of
 // multiplication operator
