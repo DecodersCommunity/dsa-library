@@ -1,3 +1,4 @@
+/* Contributed by - Ali Saquib Raza <razaalisaquib69@gmail.com>*/
 //divide two numbers using bitwise operators
 #include <stdio.h>
 
