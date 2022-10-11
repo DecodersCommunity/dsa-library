@@ -1,4 +1,5 @@
-# Binary Search Algorithm 🚀
+# Binary Search Algorithm 🚀 
+<img src="https://miro.medium.com/max/1400/0*vPKG0tTWo2GKHTMv.jpeg" height=200/>
 
 ## Why Binary search exists in the first place
 - We can do the same thing with O(n) time.
