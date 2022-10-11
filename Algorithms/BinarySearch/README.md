@@ -1,53 +1,65 @@
-## Binary Search Algorithm
+# Binary Search Algorithm 🚀
 
-* Begin with the mid element of the whole array as a search key.
-* If the value of the search key is equal to the item then return an index of the search key.
-* Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
-* Otherwise, narrow it to the upper half.
-* Repeatedly check from the second point until the value is found or the interval is empty.
+## Why Binary search exists in the first place
+- We can do the same thing with O(n) time.
+- If the problem states as sorted or monotonic fashion, we can apply binary search which can do the same thing with O(Logn) time, which is more optimized. 
+## Basically there are 2 types of pattern exist in Binary Search
 
+- Simple binary search
+- Binary Search on Answers (monotonic property)
 
-### Binary Search Algorithm can be implemented in the following two ways
+## Simple Binary Search (Traditional)
+It's the usual binary search which can perform over the sorted or some kind of sorted array.
 
-* Iterative Method
-* Recursive Method
+`one Should follow this order`
 
-### 1. Iteration Method
+Some questions to build your intuion with baby steps:
+- [Binary Search in sorted array](https://leetcode.com/problems/binary-search)
+- [Binary Search in reverse sorted aray](https://www.geeksforgeeks.org/search-an-element-in-a-reverse-sorted-array)
+- [Missing Number](https://leetcode.com/problems/missing-number/)
+- [Find Peak element in Mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- [1095.Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
+- [34.Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [Google | Find the number of occurrences of an element in a sorted array](https://leetcode.com/discuss/interview-question/124724/)
+- [540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 
-```
-    binarySearch(arr, x, low, high)
-        repeat till low = high
-               mid = (low + high)/2
-                   if (x == arr[mid])
-                   return mid
-   
-                   else if (x > arr[mid]) // x is on the right side
-                       low = mid + 1
-   
-                   else                  // x is on the left side
-                       high = mid - 1
+### Wohh!! You Learned the most favourite topic of Google
+## Binary Search on Answers
+- It's the trickier version of binary search which asks most of the time in interview and cp.
 
-```
+`one Should follow this order` 
 
-### 2. Recursive Method (The recursive method follows the divide and conquers approach)
+#### How to identify Binary search on answer most of the time
 
-```
-  binarySearch(arr, x, low, high)
-           if low > high
-               return False 
-   
-           else
-               mid = (low + high) / 2 
-                   if x == arr[mid]
-                   return mid
-       
-               else if x > arr[mid]        // x is on the right side
-                   return binarySearch(arr, x, mid + 1, high)
-               
-               else                        // x is on the right side
-                   return binarySearch(arr, x, low, mid - 1) 
-```
+- Minimize or maximize the answer
+- Every one should get atleast one of the element
+- Allocation should be contiguous in fashion (sometimes depends)
+- Monotonic property (After a certain point, ans will not exist)
+```bash
+ F F T T T T T T T T F F F F . . . 
+ ``` 
 
-### Illustration of Binary Search Algorithm: 
+### There is basically two types of variation.
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/20220309171621/BinarySearch.png)
+ #### Minimize the maximum 
+- [1283.Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+- [875.Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [Allocate minimum number of pages](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1/)
+
+#### Maximize the minimum 
+- [1817.Divide Chocolate](https://www.lintcode.com/problem/1817/)
+- [Agressive cows](https://www.spoj.com/problems/AGGRCOW/)
+- [1552.Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)
+
+#### Tricckest problem of all time
+- [1870.Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)
+  
+  
+## Huraaahh, You're ready to crack Google
+
+### Some points
+- One should strugle with the problem/ try by your own before jumping the solution
+- Learn intuitions and patterns, not questions.
+- For more detail explanation, watch [Aditya Verma's Binary Search Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2)
+- Best article ever written over Leetcode on Binary Search [Article1](https://leetcode.com/discuss/interview-question/1322500/5-variations-of-Binary-search-(A-Self-Note)) and [Article2](https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
+- Practice
