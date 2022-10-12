@@ -1,6 +1,6 @@
 <p align="center"><img src="https://w10.naukri.com/mailers/2022/naukri-learning/what-is/What-is-Data-Structures-and-Algorithms.jpg" height="350" /></p>
 
-# DSA Library
+# DSA Library (Not Included in Hacktoberfest 2022)
 
 DSA Library is a beginner-friendly repository that contains all the major Data Structures & Algorithms implemented in 5 different languages. Through this repository we aim to create a centralized DSA resource which we may look up to for revision before tech interviews.
 This repository is maintained by: [Simran Yadav](https://github.com/ishiprayadav),  [Harshit Sharma](https://github.com/harshit-sharma-gits/).
