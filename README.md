@@ -3,7 +3,7 @@
 # DSA Library
 
 DSA Library is a beginner-friendly repository that contains all the major Data Structures & Algorithms implemented in 5 different languages. Through this repository we aim to create a centralized DSA resource which we may look up to for revision before tech interviews.
-This repository is maintained by: [Simran Yadav](https://github.com/ishiprayadav), [Amartya Yadav](https://github.com/iamartyaa), [Harshit Sharma](https://github.com/harshit-sharma-gits/).
+This repository is maintained by: [Simran Yadav](https://github.com/ishiprayadav),  [Harshit Sharma](https://github.com/harshit-sharma-gits/).
 
 Note: <i>This repository is created with the sole intent of guiding beginners to their initial Open Source contributions.</i>
 
